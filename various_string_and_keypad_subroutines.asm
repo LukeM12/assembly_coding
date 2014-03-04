@@ -87,7 +87,9 @@ finish:
 	pulx 
 	rts
 ;/* Returns the decimal string equivalent of num, with leading zeros in 
- ;* the hundreds and tens columns (so that the returned string is always three digits long)
+ ;* the hundreds and tens columns (so that the returned string is always three digits long) 
+
+
  ;* @param num	An unsigned byte number (maximum value = 255)
  ;* @param string A pointer to a null-terminated string of at least 4 bytes (3 digits+1terminator)
  ;*		 in which the subroutine will store the string equivalent of num
